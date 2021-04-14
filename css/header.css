@@ -1,0 +1,72 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+}
+
+
+
+
+
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #FF3CAC;
+background-image: linear-gradient(75deg, #ffc31a 0, #ffb42b 8.33%, #ffa338 16.67%, #ff9143 25%, #ff7d4b 33.33%, #ff6851 41.67%, #f25353 50%, #d94053 58.33%, #c23054 66.67%, #ae2455 75%, #9d1c56 83.33%, #8e1859 91.67%, #81195d 100%);
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+}
+
+:root{
+    --color1: #D93636;
+    --color2: #A61A0D;
+    --color3: #D98943;
+    --color4: #5BA691;
+    --color5: #588C8C;
+    
+}
+
+.logo{
+    color: white;
+    font-family: monospace;
+    
+    
+}
+.nav {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px; 
+    list-style: none;
+    width: 200px; 
+    color: white;
+    
+    
+}
+
+.pc {
+   color: white;
+    text-decoration: none;
+    font-family: monospace; 
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.pc:hover{
+      width: 200px;
+    
+    transition: 0.3s;
+    border-radius: 20px; 
+    background-color: blue;
+    background-image: linear-gradient(180deg, #a8d5c6 0, #97cec1 12.5%, #83c7bd 25%, #6dbfba 37.5%, #51b7b7 50%, #2aaeb5 62.5%, #00a6b5 75%, #009eb6 87.5%, #0097b7 100%);
+    }
+    
+    
+}
+

@@ -1,0 +1,40 @@
+.banner_index{
+    width: 100%;
+    height: 780px;
+    background-image: url(../img/captus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 370px;
+}
+.leyenda{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: monospace;
+    
+}
+.btn_banner{
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-image: linear-gradient(180deg, #bfc98c 0, #b2c78a 8.33%, #a4c589 16.67%, #93c388 25%, #81c087 33.33%, #6bbc88 41.67%, #51b789 50%, #2bb28c 58.33%, #00ae91 66.67%, #00a997 75%, #00a59e 83.33%, #00a1a7 91.67%, #009eb0 100%);
+    color: white; 
+    font-size: 50px;
+   
+}
+
+.btn_banner:hover{
+    width: 300px;
+    
+    transition: 0.3s;
+    border-radius: 20px; 
+    background-color: blue;
+    background-image: linear-gradient(180deg, #a8d5c6 0, #97cec1 12.5%, #83c7bd 25%, #6dbfba 37.5%, #51b7b7 50%, #2aaeb5 62.5%, #00a6b5 75%, #009eb6 87.5%, #0097b7 100%);
+    }
+
